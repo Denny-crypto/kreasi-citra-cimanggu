@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>KMC - CNC Router & Laser Cutting</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#" style="display: flex; align-items: center; gap: 10px;">
+          <img src="images/logo.jpeg" alt="KMC Logo" height="40" style="border-radius: 4px;">
+          KMC
+        </a>
+        <nav class="main-nav" id="mainNav">
+          <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#material">Material</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#cara">Cara Pemesanan</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">JASA POTONG CNC ROUTER & LASER CUTTING</p>
+          <h1>POTONG PRESISI <span class="accent">HASIL MAKSIMAL</span></h1>
+          <p class="lead">Melayani pemotongan berbagai material dengan teknologi CNC Router dan Laser Cutting modern untuk hasil yang rapi, cepat, dan akurat.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#kontak">KONSULTASI GRATIS</a>
+            <a class="btn btn-outline" href="#kontak">KIRIM DESAIN SEKARANG</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="hero-image" data-placeholder> <!-- Ganti dengan gambar Anda nanti -->
+          </div>
+        </div>
+      </div>
+      <div class="hero-gallery container">
+        <div class="thumb"></div>
+        <div class="thumb"></div>
+        <div class="thumb"></div>
+        <div class="thumb"></div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <div class="feature">Presisi Tinggi</div>
+      <div class="feature">Pengerjaan Cepat</div>
+      <div class="feature">Harga Kompetitif</div>
+      <div class="feature">Bisa Custom Desain</div>
+      <div class="feature">Tim Berpengalaman</div>
+      <div class="feature">Konsultasi Gratis</div>
+    </section>
+
+    <section id="layanan" class="services container">
+      <h2 class="section-title">LAYANAN KAMI</h2>
+      <p class="section-sub">Solusi lengkap untuk kebutuhan cutting dan desain Anda</p>
+      <div class="cards">
+        <article class="card">
+          <div class="card-media" data-placeholder-small></div>
+          <h3>CNC ROUTER CUTTING</h3>
+          <ul>
+            <li>Furniture Custom</li>
+            <li>Partisi Ruangan</li>
+            <li>Interior Komersial</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card-media" data-placeholder-small></div>
+          <h3>LASER CUTTING</h3>
+          <ul>
+            <li>Acrylic Cutting</li>
+            <li>MDF / Plywood Cutting</li>
+            <li>Ornamen Custom</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card-media" data-placeholder-small></div>
+          <h3>JASA DESAIN CAD</h3>
+          <ul>
+            <li>File CNC</li>
+            <li>Vector Design</li>
+            <li>Optimasi Material</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="material" class="materials container">
+      <h2 class="section-title">MATERIAL YANG DAPAT DIPROSES</h2>
+      <p class="section-sub">Berbagai pilihan material untuk kebutuhan Anda</p>
+      <div class="material-grid">
+        <div class="mat">MDF</div>
+        <div class="mat">Multiplex</div>
+        <div class="mat">Plywood</div>
+        <div class="mat">Acrylic</div>
+        <div class="mat">PVC Board</div>
+        <div class="mat">Polycarbonate</div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio container">
+      <h2 class="section-title">HASIL PEKERJAAN KAMI</h2>
+      <p class="section-sub">Beberapa hasil project yang telah kami kerjakan</p>
+      <div class="portfolio-filters">
+        <button class="filter active" data-filter="all">Semua</button>
+        <button class="filter" data-filter="furniture">Furniture Custom</button>
+        <button class="filter" data-filter="interior">Interior</button>
+        <button class="filter" data-filter="laser">Laser Cutting</button>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid">
+        <!-- Ganti src gambar dengan file Anda nanti -->
+        <div class="port-item" data-type="furniture" data-placeholder-small></div>
+        <div class="port-item" data-type="interior" data-placeholder-small></div>
+        <div class="port-item" data-type="laser" data-placeholder-small></div>
+        <div class="port-item" data-type="furniture" data-placeholder-small></div>
+        <div class="port-item" data-type="laser" data-placeholder-small></div>
+        <div class="port-item" data-type="interior" data-placeholder-small></div>
+      </div>
+      <div class="portfolio-cta">
+        <a class="btn" href="#portfolio">LIHAT PORTFOLIO LENGKAP</a>
+      </div>
+    </section>
+
+    <footer id="kontak" class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h3>KMC</h3>
+          <p>Jasa potong CNC Router & Laser Cutting — Siap bantu proyek Anda</p>
+        </div>
+        <div>
+          <h4>Lokasi</h4>
+          <p><a href="https://maps.app.goo.gl/Ej9jbZxtB7WyXGGEA" target="_blank" style="color: var(--accent); text-decoration: none; font-weight: 600;">📍 Buka di Google Maps</a></p>
+        </div>
+        <div>
+          <h4>Kontak</h4>
+          <p>Email: info@kmc.example</p>
+          <p>Telepon: 0812-XXXX-XXXX</p>
+        </div>
+      </div>
+      <div class="copyright">© 2026 KMC. All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
